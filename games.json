@@ -1,0 +1,22 @@
+{
+  "spacequest4": {
+    "GAME_URL": "https://archive.org/download/msdos_Space_Quest_IV_-_Roger_Wilco_and_the_Time_Rippers_1991/Space_Quest_IV_-_Roger_Wilco_and_the_Time_Rippers_1991.zip",
+    "GAME_ARGS": "SQ4.BAT",
+    "GAME_DIR": "SQ4"
+  },
+  "syndicate_plus": {
+    "GAME_URL": "https://archive.org/download/msdos_Syndicate_Plus_1994/Syndicate_Plus_1994.zip",
+    "GAME_ARGS": "synd.exe",
+    "GAME_DIR": "SYNDICAT"
+  },
+  "monkey_island": {
+    "GAME_URL": "https://dosgames.com/files/monkey1.zip",
+    "GAME_ARGS": "MIDEMO.EXE",
+    "GAME_DIR": "."
+  },
+  "pizza_connection": {
+    "GAME_URL": "local:/ZIP/PizzaConnection.zip",
+    "GAME_ARGS": "PT.EXE",
+    "GAME_DIR": "PIZZAC~1"
+  }
+}
