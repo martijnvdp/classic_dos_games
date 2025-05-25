@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>GAME_TITLE</title>
+    <style type="text/css" media="screen">
+      body {
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: white;
+      }
+      canvas {
+        width: 800px;
+        height: 600px;
+      }
+    </style>
+    <script src="js-dos.js"></script>
+  </head>
+  <body>
+    <canvas id="jsdos" width="800" height="600" ></canvas>
+    <script>
+      Dos(document.getElementById("jsdos"), {
+      }).ready((fs, main) => {
+        fs.extract("game.zip").then(() => {
+          main(["-c", "CD GAME_DIR", "-c", GAME_ARGS])
+        });
+      });
+    </script>
+    <br><br><br><br><br>
+    <center>
+      <form>
+        <input type="button" value="Exit" onclick="window.close()">
+      </form>
+    </center>
+  </body>
+</html>
